@@ -1,10 +1,119 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Project Sass</title>
+    <meta charset="utf-8">
+    <meta name='viewport' content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Font awsome icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
+
 <body>
-	<h1>a moze jednak</h1>
+    <!-- main container -->
+    <div id="main-container">
+        <!-- Nav -->
+        <header>
+            <nav>
+                <div class="container">
+                    <div class="nav-bar">
+                        <div class="nav-logo">
+                            <a href="#"><img src="images/BM-logo.png" alt="logo"></a>
+                        </div>
+                        <div class="main-menu-content">
+                            <ul id="main-menu">
+                                <li><a href="#" class='menu-link-active'>Start</a></li>
+                                <li><a href="#">Opinie</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">Współpraca</a></li>
+                                <li><a href="#">Kontakt</a></li>
+                                <li><a href="#"><i class="fa fa-search"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Slider -->
+        <div class="top-slider">
+            <ul class="bxslider" id="main-slider">
+                <li>
+                    <div class='main-slide-1'>
+                        <div class="container">
+                            <div class="mains-slider-content">
+                                <h1>Lorem ipsum</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                <a href="#">Zobacz</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class='main-slide-1'>
+                        <div class="container">
+                            <div class="mains-slider-content">
+                                <h1>Lorem ipsum</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                <a href="#">Zobacz</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class='main-slide-1'>
+                        <div class="container">
+                            <div class="mains-slider-content">
+                                <h1>Lorem ipsum</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                <a href="#">Zobacz</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- Sekcja uslugi -->
+        <div class="services">
+            <div class="container">
+                <div class="single-col">
+                    <span><i class="fa fa-bolt"></i></span>
+                    <h3>Fast like Bolt</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                </div>
+                <div class="single-col">
+                    <span><i class="fa fa-cc-discover"></i></span>
+                    <h3>Discover</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                </div>
+                <div class="single-col">
+                    <span><i class="fa fa-bomb"></i></span>
+                    <h3>Who put the bomb</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                </div>
+                <div class="single-col">
+                    <span><i class="fa fa-cubes"></i></span>
+                    <h3>Cuuuuube</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio -->
+        <div class="portfolio">
+        	<div class="section-title">
+				<div class="container">
+					<h2>Portfolio</h2>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+				</div>
+        	</div>
+        	<!-- Slider -->
+        	<div class="portfolio-slider">
+        		<div class="container">
+        			<div id="portfolio-carousel" class='owl-carousel'></div>
+        		</div>
+        	</div>
+        </div>
+    </div>
 </body>
+
 </html>
